@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Smart Parking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reserve Parking</a></li>
+                <li><a href="reservation_history.html">My Reservations</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>We’re here to help! If you have any questions, feel free to reach out using the form below or through our contact details.</p>
+            
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-details">
+                <h3>Our Contact Details</h3>
+                <p>Email: info@smartparking.rw</p>
+                <p>Phone: +250 788 123 456</p>
+                <p>Address: Kigali City Tower, Kigali, Rwanda</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Smart Parking System. All rights reserved.</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>
